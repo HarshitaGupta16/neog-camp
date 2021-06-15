@@ -58,7 +58,7 @@ e.g: small
 
 
 ### Homework:
-Read about meta tags
+Read about meta tags <br>
 Look into aside
 
 ### Useful Information: 
