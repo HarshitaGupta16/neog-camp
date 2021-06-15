@@ -72,7 +72,7 @@ A website in pure HTML and CSS, javascript is much fast to load like:  http://mo
 https://undraw.co/ : downloads svg image <br>
 https://unsplash.com/ <br>
 svg image: for websites and projects (image that doesn't blur on zoom) <br>
-png image: for posting on social media
+png image: for posting on social media <br>
 **Find colors for your website:**
  tailwindcss.com
 
