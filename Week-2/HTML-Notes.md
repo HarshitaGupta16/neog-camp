@@ -75,6 +75,7 @@ svg image: for websites and projects (image that doesn't blur on zoom) <br>
 png image: for posting on social media <br>
 **Find colors for your website:**
  tailwindcss.com
+ https://tailwindcss.com/docs/customizing-colors
 
 **Online IDE for html/css/js**
 codepen.io
