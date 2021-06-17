@@ -16,7 +16,7 @@ h1 tag: This is the biggest heading
 h2 tag: This is the second biggest heading
 p tag: Normal Text. Free flowing text that will wrap at the end like a paragraph.
 small tag: This is relatively smaller text
-
+span tag: span is like div element but it is inline element.
 
 
 With HTML whole typography can be controlled.
@@ -80,4 +80,7 @@ png image: for posting on social media <br>
 **Online IDE for html/css/js**
 codepen.io
 codesandbox
+    
+HTML file paths:Relative and Root path
+Link for file paths: https://www.w3schools.com/html/html_filepaths.asp
   
