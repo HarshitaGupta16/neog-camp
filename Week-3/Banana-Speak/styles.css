@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Satisfy&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Indie+Flower&family=Patrick+Hand&family=Satisfy&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Indie+Flower&family=Patrick+Hand&family=Satisfy&display=swap');
+
+:root {
+    --primary-color: #FBBF24;
+}
+
+body {
+    font-family: 'Satisfy', cursive;
+    /* font-family: 'Patrick Hand', cursive; */
+    /* font-family: 'Satisfy', cursive; */
+    margin: 0px;
+}
+
+textarea {
+    font-family: 'Cabin', sans-serif;
+    font-size: 120%;
+    width: 50%;
+    height: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #3B82F6;
+}
+
+#output {
+    font-family: 'Cabin', sans-serif;
+    border: 1px solid black;
+    width: 50%;
+    height: 20vh;
+    margin: 1rem 0rem;
+    font-size: 120%;
+    /* margin-left: 9%; */
+    margin-left: 25%;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+#btn-translate {
+    position: relative;
+    left: 10%;
+    padding: 0.5rem;
+    color: #1E3A8A;
+    font-weight: bold;
+    background-color: var(--primary-color);
+}
+
+.output-text {
+    font-size: larger;
+    text-indent: 25%;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.start-text {
+    text-indent: 5%;
+}
+
+h1 {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 3rem;
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.gif-with-text-on-right {
+    float: left;
+    display: inline;
+    flex-basis: 40%;
+}
+
+.gif-left-aligned {
+    flex-basis: 100%;
+    /* margin-left: 45%; */
+}
+
+.gif-with-text-on-left {
+    float: right;
+    display: inline;
+    flex-basis: 40%;
+}
+
+.gif-right-aligned {
+    height: 650px;
+    /* width: 20%; */
+    flex-basis: 100%;
+}
+
+.img-bottom-left {
+    max-width: 220px;
+    margin-bottom: 0px;
+    margin-top: -0.5%;
+    float: left;
+    display: inline;
+    flex-basis: 40%;
+}
+
+.footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 2rem;
+    margin-top: 5rem;
+    /* border: 1px solid blue; */
+}
+
+.about-text {
+    font-size: 110%;
+    /* text-align: center;
+    background-color: var(--primary-color); */
+}
+
+
+
+
