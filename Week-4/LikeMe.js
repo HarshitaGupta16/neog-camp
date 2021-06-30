@@ -1,3 +1,5 @@
+// This code is to get the count like count of likes on social media.
+
 import React, { useState } from "react";
 import "./styles.css";
 
