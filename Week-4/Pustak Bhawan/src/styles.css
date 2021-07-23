@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.text-padding {
+  padding-bottom: 1rem;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 1rem;
+  border: 1px solid lightgreen;
+  white-space: 0.5rem;
+  border-width: 0.1rem;
+  background-color: lightgreen;
+  border-block-start-width: 1rem;
+  border-block-end-width: 1rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.img-styling {
+  height: 200px;
+  width: 800px;
+  display: 100%;
+  /* margin-right: 80%; */
+  /* margin-left: 80%; */
+}
+
+.container {
+  padding: 1rem 0rem;
+  /* border-top: 1px solid gray; */
+  border-bottom: 2px solid gray;
+  margin-right: 35%;
+}
+
+.list-side-align {
+  text-align: left;
+  margin-left: 25%;
+}
