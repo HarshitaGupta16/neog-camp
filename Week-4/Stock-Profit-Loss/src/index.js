@@ -7,7 +7,7 @@ const stocksQuantity = document.querySelector("#stocks-quantity");
 const currentPrice = document.querySelector("#current-price");
 const btnRef = document.querySelector("#submit-btn");
 const outputBox = document.querySelector("#output-box");
-const alertBox = document.querySelector("#alert");
+
 // console.log(initialPrice);
 
 // if (initialPrice === 0) {
