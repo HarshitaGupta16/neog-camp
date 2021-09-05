@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Style+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lobster&family=Style+Script&family=Yanone+Kaffeesatz&display=swap");
+
+:root {
+  /* --primary-color: #0c4a6e; */
+  /* --secondary-color: rgb(187, 101, 40); */
+  --primary-color: #eab308;
+  --secondary-color: #40005d;
+  font-family: "EB Garamond", serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  /* height: 80vh; */
+}
+
+.main-heading {
+  margin-top: 0;
+  text-align: center;
+  background-image: linear-gradient(
+    140deg,
+    var(--primary-color) 60%,
+    var(--secondary-color) 75%
+  );
+  min-height: 11.2vh;
+  color: var(--secondary-color);
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff,
+    1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  border: 2mm ridge var(--primary-color);
+}
+
+main {
+  background: var(--primary-color);
+  color: black;
+  background-position: center;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 0.5rem;
+  margin-top: 1.5%;
+  border: 2mm ridge var(--secondary-color);
+  height: 550px;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #16a34a;
+}
+
+.heading {
+  margin-left: 30%;
+  margin-right: 50%;
+}
+
+.form {
+  border: 1mm ridge var(--secondary-color);
+  width: 70%;
+  margin: auto;
+  padding: 0rem 1rem 1rem 0.5rem;
+}
+
+h2 {
+  /* color: #78716C;*/
+  margin-left: 14%;
+  /* font-family: "Lobster", cursive; */
+  /* color: #d6d3d1; */
+  color: #57534e;
+}
+
+.app-info {
+  font-family: "EB Garamond", serif;
+  font-size: 1.2rem;
+}
+
+input {
+  display: flex;
+  margin: auto;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  border: 2px solid var(--secondary-color);
+}
+
+button {
+  margin-left: 40%;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: var(--secondary-color);
+  border: 3px solid white;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+}
+
+main .birthday img {
+  position: absolute;
+  left: 1000px;
+  top: 120px;
+  /* clip: rect(0px, 180px, 250px, 20px); */
+}
+.output {
+  display: block;
+  background: var(--secondary-color);
+  color: white;
+  padding: 0.5rem;
+  border: 2mm ridge white;
+  border-radius: 0.5rem;
+  margin: 1rem 7rem 0rem 7rem;
+  font-size: 1.3rem;
+}
+
+footer {
+  /* position: fixed; */
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 2rem 2rem 2.1rem 0rem;
+  background: var(--secondary-color);
+  border: 2mm ridge var(--primary-color);
+  margin-top: 1rem;
+}
+
+.footer-header {
+  /* margin: 10% auto ; */
+  font-weight: bold;
+  font-size: larger;
+  margin-left: 43%;
+  border: 4px solid black;
+  border-block-end-color: var(--primary-color);
+  padding: 0.5rem;
+  display: inline;
+  color: white;
+}
+
+.button-block {
+  width: 600px;
+  /* margin-top: 40px; */
+  margin: auto;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+  font-weight: bolder;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.list-item-inline a {
+  display: block;
+  background: #57534e;
+  padding: 10px;
+  position: relative;
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+  box-shadow: -20px 20px 10px rgba(0, 0, 0, 1);
+  transition: all 0.5s ease-in-out;
+}
+
+.button-block .list-item-inline a::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  left: -20px;
+  top: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  transform: rotate(0deg) skewY(-45deg);
+}
+
+.button-block .list-item-inline a::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  transform: rotate(0deg) skewX(-45deg);
+  background: rgba(0, 0, 0, 0.7);
+  transform: rotate(45deg) scewY(-45deg);
+}
+
+.list-item-inline a:hover {
+  transform: perspective(1000px) rotate(-30deg) skew(25deg)
+    translate(20px, -20px);
+  box-shadow: -50px 50px 30px rgba(0, 0, 0, 0.5);
+}
+
+.list-item-inline a i {
+  color: var(--primary-color);
+  font-size: 20pt;
+}
