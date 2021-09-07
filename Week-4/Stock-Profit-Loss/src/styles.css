@@ -1,7 +1,7 @@
 body {
   font-family: sans-serif;
   text-align: center;
-  background-color: black;
+  background-color: rgb(7, 62, 80);
   color: white;
   display: flex;
   flex-flow: column nowrap;
@@ -44,7 +44,8 @@ button:disabled {
 }
 
 button {
-  background-color: #1e40af;
+  /* background-color: #1e40af; */
+  background-color: #be185d;
   color: white;
   width: 150px;
   height: 60px;
@@ -114,5 +115,5 @@ footer {
 }
 
 li i {
-  color: gray;
+  color: rgb(150, 141, 141);
 }
