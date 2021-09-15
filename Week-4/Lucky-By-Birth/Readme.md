@@ -1,4 +1,4 @@
-# Lucky By Birth 
+# Lucky By Birth Meter
 
 A GUI app built with <strong>ReactJS, HTML, CSS</strong>. This app is hosted on codesandbox. 
 This application takes 1st input: date of birth and 2nd input: lucky number. On the basis of the both the inputs the app will check if the sum of digits of date of birth is 
